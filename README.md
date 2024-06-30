@@ -1,5 +1,7 @@
 # smol-Diffusion
-Implemented DDPM Diffusion
+Implemented DDPM Diffusion.
+
+Code coming soon....
 
 ## Results
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results1.png">
