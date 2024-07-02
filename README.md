@@ -16,6 +16,7 @@ Full code coming soon....
 ## Sampling
 
 ## Sampling results
+<img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/img_header.png">
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results6.png">
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results1.png">
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results2.png">
