@@ -1,5 +1,5 @@
 # smol-Diffusion
-Implemented DDPM Diffusion.
+Implemented DDPM Diffusion model from scratch. Used a Unet model with Self-attention.
 
 Full details coming soon ...
 
