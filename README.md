@@ -1,7 +1,19 @@
 # smol-Diffusion
 Implemented DDPM Diffusion.
 
-Code coming soon....
+Full code coming soon....
+
+## Dataset
+
+## Requirements
+### Software
+### Hardware
+
+## How to run?
+
+## Training
+
+## Sampling
 
 ## Sampling results
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results1.png">
