@@ -32,3 +32,5 @@ GPU is non-negotiable for training and sampling. I recommend a GPU with atleast 
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results3.png">
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results4.png">
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results5.png">
+
+## Resources and Acknowledgments
