@@ -14,15 +14,27 @@ I used Stanford Cars Dataset, which contains about 16k car images. Steps to down
 - numpy
 - matplotlib
 - tqdm
+- Jupyterlab
 
 ### Hardware
-GPU is non-negotiable for training and sampling. I recommend a GPU with atleast 16GB VRAM. I used kaggle's P100 GPU (free for 30 hrs) and runpod cloud gpu after kaggle compute got exhausted.
+GPU is absolutely required for training and sampling.
+I used Runpod cloud gpu.
 
 ## How to run?
+1. Clone the repo
+2. Install the requirements mentioned above
+3. Place the dataset inside `data` folder in the working directory
+4. Run the notebook `DDPM_train_and_sample.ipynb`
 
 ## Training
+Total training took around 40 hrs on a single GPU with 16gb VRAM and a batch size of 32
+I trained it for roughly 380 epochs. (1 epoch = 1 complete pass through the dataset = 16k imgs / 32 batch size = 500 iters of 32 batch size)
 
 ## Sampling
+Sampling is quite slow
+I used 15000 timesteps to obtain respectable results
+
+Sampling is major limitation of DDPM diffusion. The images are blurry, less sharp, less colorful and look like mean of the data.
 
 ## Sampling results
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/img_header.png">
@@ -34,3 +46,13 @@ GPU is non-negotiable for training and sampling. I recommend a GPU with atleast 
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/results5.png">
 
 ## Resources and Acknowledgments
+Based on the paper: *Denoising Diffusion Probabilistic Models* https://arxiv.org/abs/2006.11239
+Inspired by these youtube videos: 
+- https://www.youtube.com/watch?v=a4Yfz2FxXiY&ab_channel=DeepFindr
+- https://www.youtube.com/watch?v=HoKDTa5jHvg&ab_channel=Outlier
+
+Great blog post on diffusion: https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
+
+Other useful resources:
+- https://github.com/openai/improved-diffusion/tree/main
+- https://arxiv.org/abs/2102.09672
