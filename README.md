@@ -1,7 +1,7 @@
 # smol-Diffusion
 Implemented DDPM Diffusion model from scratch. Used a Unet model with Self-attention.
 
-Full details coming soon ...
+
 
 ## Dataset
 I used Stanford Cars Dataset, which contains about 16k car images. Steps to download dataset: https://github.com/pytorch/vision/issues/7545#issuecomment-1631441616
