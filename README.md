@@ -3,8 +3,8 @@ Implemented DDPM Diffusion model from scratch. Used a Unet model with Self-atten
 
 **Generated Images**
 
-<img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img1.png" width="200" height="200"><img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img2.png" width="200" height="200">
-<img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img3.png" width="200" height="200"><img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img4.png" width="200" height="200">
+<img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img1.png" width="200" height="200"> <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img2.png" width="200" height="200">
+<img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img3.png" width="200" height="200"> <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img4.png" width="200" height="200">
 
 ## Dataset
 I used Stanford Cars Dataset, which contains about 16k car images. Steps to download dataset: https://github.com/pytorch/vision/issues/7545#issuecomment-1631441616
