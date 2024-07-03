@@ -45,6 +45,7 @@ Sampling is major limitation of DDPM diffusion. The images are blurry, less shar
 
 ## Resources and Acknowledgments
 Based on the paper: *Denoising Diffusion Probabilistic Models* https://arxiv.org/abs/2006.11239
+
 Inspired by these youtube videos: 
 - https://www.youtube.com/watch?v=a4Yfz2FxXiY&ab_channel=DeepFindr
 - https://www.youtube.com/watch?v=HoKDTa5jHvg&ab_channel=Outlier
