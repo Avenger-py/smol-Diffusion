@@ -2,7 +2,9 @@
 Implemented DDPM Diffusion model from scratch. Used a Unet model with Self-attention.
 
 **Generated Images**
+
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img1.png"> <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img2.png">
+
 <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img3.png"> <img src="https://github.com/Avenger-py/smol-Diffusion/blob/main/assets/generated_img4.png">
 
 ## Dataset
