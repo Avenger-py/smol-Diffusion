@@ -27,13 +27,11 @@ I used Runpod cloud gpu.
 4. Run the notebook `DDPM_train_and_sample.ipynb`
 
 ## Training
-Total training took around 40 hrs on a single GPU with 16gb VRAM and a batch size of 32
-I trained it for roughly 380 epochs. (1 epoch = 1 complete pass through the dataset = 16k imgs / 32 batch size = 500 iters of 32 batch size)
+Total training took around 40 hrs on a single GPU with 16gb VRAM and a batch size of 32.
+I trained it for roughly 380 epochs (1 epoch = 1 complete pass through the dataset = 16k imgs / 32 batch size = 500 iters of 32 batch size).
 
 ## Sampling
-Sampling is quite slow
-I used 15000 timesteps to obtain respectable results
-
+Sampling is quite slow. I used 15000 timesteps to obtain respectable results.
 Sampling is major limitation of DDPM diffusion. The images are blurry, less sharp, less colorful and look like mean of the data.
 
 ## Sampling results
